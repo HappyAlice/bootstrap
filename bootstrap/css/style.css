@@ -1,0 +1,140 @@
+
+/*页眉导航条*/
+.distance{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.active{
+	color: #fff;
+	background-color: rgb(255,120,120);
+}
+
+/*  S  页眉图片及其文字*/
+.header-img{
+	width: 100%;
+	margin-top: 70px;
+	background: url(../pictures/header-bg.jpg) no-repeat center;
+}
+.text{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.text h2{
+	font-size: 46px;
+	font-weight: normal;
+	line-height: 1.5em;
+	letter-spacing: .09em;
+	color: white;
+}
+.text h2:last-child{
+	font-size: 24px;
+	font-weight: bold;
+}
+/*  E  页眉图片及其文字*/
+
+/*  S  文字介绍  */
+.p-introduce{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f2f2f2;
+}
+.intr_icon{
+	display: inline-block;
+	font-size: 30px;
+	color: rgb(255,120,120);
+}
+.p-introduce h3{
+	margin: 20px auto 10px;
+}
+.p-introduce p{
+	font-size: 14px;
+	line-height: 2em;
+}
+/*  E  文字介绍  */
+
+/*	S 图片展示 */
+.img-show{
+	background-color: #e0e0e0;
+}
+.img-show-title{
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 0px;
+	margin: 50px auto 20px;
+}
+.img-show-pic{
+	margin-bottom: 20px;
+}
+/* 图片鼠标移动上去后转动 =S */
+.img_click{
+	cursor: pointer;	
+}
+.img_click:hover{
+	transform: rotate(-15deg);
+	transition-duration: 1s;
+}
+/* 图片鼠标移动上去后转动 =S */
+.modal-header-title{
+	background-color: #cecece;
+}
+img{
+	display: inline-block;
+}
+/*  E 图片展示 */
+
+/* S  MUNTER DESIGNER	*/
+.designer{
+	background-color: #f2f2f2;
+}
+.designer-h4{
+	font-weight: bold;
+	margin: 50px auto 20px;
+}
+.designer img{
+	margin: 100px auto 50px;
+}
+
+/* S  MUNTER DESIGNER	*/
+
+/*  S   CLIENTS*/
+.clients{
+	background-color: #ebebeb;
+}
+.clients-h4{
+	font-weight: bold;
+	margin: 50px auto 30px;
+}
+/*  E   CLIENTS*/
+
+/*  S about ourself  */
+.p-ourself{
+	padding: 60px;
+	background-color: #ff7878;
+}
+.p-ourself-title{
+	font-weight: bold;
+	margin: 0 auto 20px;
+}
+.p-ourself-text{
+	color: #fff;
+}
+
+/*  E about ourself  */
+
+/*  S 页脚  */
+
+.frandly-link{
+	padding: 25px;
+	background-color: #2d2d2d;
+}
+.frandly-link li{
+	font-size: 25px;
+	color: #cecece;
+}
+.frandly-link li:hover{ 
+	color: #ff7878; 
+}
+/*  E 页脚  */
+
+
+

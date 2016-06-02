@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<mate charset="utf-8">
+		<title>SPOTWP</title>
+		<!-- 引入bootstrap样式表 -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="Awesome/css/font-awesome.min.css">
+		<!-- 引入重置样式表 -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<!-- 引入自己定义的样式表 -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+	<!--   S  页眉    -->
+		<header>
+			<div class="navbar-default navbar-inverse navbar-fixed-top distance">		
+				<div class="container">
+					<div class="navbar-header">
+		    			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		    				<span class="sr-only"></span>
+		                    <span class="icon-bar"></span>
+		                    <span class="icon-bar"></span>
+		                    <span class="icon-bar"></span>
+		    			</button>
+						<h1 ><img src="pictures/spotlogo.png"></h1>
+		    		</div>
+					<!-- 导航 -->
+					<nav class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="navbar-nav nav navbar-right ">  <!-- TODO -->
+							<li><a href="#" class="active">HOME</a></li>
+							<li><a href="#">WORKS</a></li>
+							<li><a href="#">SERVICES</a></li>
+							<li><a href="#">TEAM</a></li>
+							<li><a href="#">BLOG</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-envelope"></span></a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<!-- 页眉图片及其文字 -->
+			<div class="header-img">
+				<div class="container">
+					<div class="text">
+						<h2 class="text-center">It Doesn't Take a </h2>
+						<h2 class="text-center">Rocket <strong>Scientist</strong></h2>
+						<h2 class="text-center">IT TAKES A DESIGNER</h2>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--   E  页眉    -->
+
+		<!-- S 	文字介绍	 -->
+		<div class="p-introduce">
+			<div class="container">
+				<div class="row ">
+					<div class="col-sm-4 text-center">
+						<span class="icon-trophy intr_icon"></span>
+						<h3>Support</h3>
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
+					</div>
+
+					<div class="col-sm-4 text-center">
+						<span class="icon-laptop intr_icon"></span>
+						<h3>Bootstrap</h3>
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
+					</div>
+
+					<div class="col-sm-4 text-center">
+						<span class="icon-heart intr_icon"></span>
+						<h3>Designer</h3>
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- E 	文字介绍	 -->
+
+		<!-- S 图片展示  -->
+		<div class="img-show">
+			<div class="container text-center">
+				<h3 class="text-center img-show-title">LATEST WORKS</h3>
+
+				<div class="row img-show-pic">
+					<div class="col-sm-4 text-center">
+						<div data-toggle="modal" data-target="#P_model1">
+							<img id="rotate" src="pictures/p002.png" class="img_click">
+						</div>
+
+						<!-- S 弹框及其动画 -->
+						<div class="modal fade bs-example-modal-lg" id="P_model1" tabindex="-1" role="dialog">
+							<div class="modal-dialog">
+								<div class="modal-content">
+
+									<div class="modal-header modal-header-title">
+										<button type="button" class="close" data-dismiss="modal">
+											<span aria-hidden="true">&times;</span>
+											<span class="sr-only">Close</span>
+										</button>
+										<h4 class="modal-title" id="myModalLabel">Client1</h4>
+									</div>
+
+									<div class="modal-body">
+		                                <img class="img_click" src="pictures/p002.png" >
+		                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
+	                            	</div>
+
+		                            <div class="modal-footer">
+		                                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+		                            </div>
+								</div>
+							</div>
+						</div>
+						<!-- E 弹框及其动画 -->
+					</div>
+
+					<div class="col-sm-4 text-center">
+						<div data-toggle="modal" data-target="#P_model2">
+							<img src="pictures/p003.png" class="img_click">
+						</div>
+
+						<!-- S 弹框及其动画 -->
+						<div class="modal fade bs-example-modal-lg" id="P_model2" tabindex="-1" role="dialog">
+							<div class="modal-dialog">
+								<div class="modal-content">
+
+									<div class="modal-header modal-header-title">
+										<button type="button" class="close" data-dismiss="modal">
+											<span aria-hidden="true">&times;</span>
+											<span class="sr-only">Close</span>
+										</button>
+										<h4 class="modal-title" id="myModalLabel">Client2</h4>
+									</div>
+
+									<div class="modal-body">
+		                                <img class="img_click" src="pictures/p003.png" >
+		                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
+	                            	</div>
+
+		                            <div class="modal-footer">
+		                                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+		                            </div>
+								</div>
+							</div>
+						</div>
+						<!-- E 弹框及其动画 -->
+					</div>
+
+
+					<div class="col-sm-4 text-center">
+						<div data-toggle="modal" data-target="#P_model3">
+							<img src="pictures/p001.png" class="img_click">
+						</div>
+
+						<!-- S 弹框及其动画 -->
+						<div class="modal fade bs-example-modal-lg" id="P_model3" tabindex="-1" role="dialog">
+							<div class="modal-dialog">
+								<div class="modal-content">
+
+									<div class="modal-header modal-header-title">
+										<button type="button" class="close" data-dismiss="modal">
+											<span aria-hidden="true">&times;</span>
+											<span class="sr-only">Close</span>
+										</button>
+										<h4 class="modal-title" id="myModalLabel">Client3</h4>
+									</div>
+
+									<div class="modal-body">
+		                                <img class="img_click" src="pictures/p001.png" >
+		                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
+	                            	</div>
+
+		                            <div class="modal-footer">
+		                                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+		                            </div>
+								</div>
+							</div>
+						</div>
+						<!-- E 弹框及其动画 -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- E 图片展示  -->
+
+		<!-- S MUNTER DESIGNER -->
+		<div class="designer">
+			<div class="container">
+				<div class="row">
+					<h4 class="text-center designer-h4"> WE CREATE FIRST CLASS DESIGN</h4>
+					<p class="text-center col-md-8 col-md-offset-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
+					<img src="pictures/munter.png" class="img-responsive">
+				</div>
+			</div>
+		</div>
+		<!-- E MUNTER DESIGNER -->
+
+		<!--  S CLIENTS  -->
+		<div class="clients">
+			<div class="container">
+			<h4 class="text-center clients-h4">OUR AWESOME CLIENTS</h4>
+				<div class="row">
+					<div class="col-sm-2 col-md-offset-1 text-center">
+						<img src="pictures/c01.gif">
+					</div>
+
+					<div class="col-sm-2 text-center">
+						<img src="pictures/c02.gif">
+					</div>
+
+					<div class="col-sm-2 text-center">
+						<img src="pictures/c03.gif">
+					</div>
+
+					<div class="col-sm-2 text-center">
+						<img src="pictures/c04.gif">
+					</div>
+
+					<div class="col-sm-2 text-center">
+						<img src="pictures/c05.gif">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--  E CLIENTS  -->
+
+		<!--  S about ourself -->
+		<div class="p-ourself">
+			<div class="cntainer">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<h4 class="text-center p-ourself-title p-ourself-text">WE ARE STORYTELLERS. BRANDS ARE OUR SUBJECTS. DESIGN IS OUR VOICE.</h4>
+						<p class="text-center p-ourself-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--  E about ourself -->
+
+		<!--  S 页脚   -->
+		<footer class="frandly-link">
+			<div class="container">
+				<ul class="row text-center">
+					<li class="icon-twitter col-sm-1 col-sm-offset-5"></li>
+					<li class="icon-dribbble col-sm-1"></li>
+					<li class="icon-facebook col-sm-1"></li>
+				</ul>
+			</div>
+		</footer>
+
+		<!--  E 页脚   -->
+		<script type="text/javascript" src="js/jquery-1.12.0.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</body>
+</html>	
